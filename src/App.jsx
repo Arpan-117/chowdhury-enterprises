@@ -15,6 +15,7 @@ import PolicyCE from "./pages/isp/PolicyCE"
 import CareerCE from "./pages/isp/CareerCE"
 import ContactCE from "./pages/isp/ContactCE"
 import ServiceCE from "./pages/isp/ServiceCE"
+import PageNotFoundCE from "./pages/isp/PageNotFoundCE"
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <Route path="career" element={<CareerCE /> } />
         <Route path="contact" element={<ContactCE /> } />
         <Route path="services" element={<ServiceCE /> } />
+        <Route path="*" element={<PageNotFoundCE />} />
       </Route>
 
       </Routes>
