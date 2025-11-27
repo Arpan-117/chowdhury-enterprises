@@ -10,7 +10,7 @@ function HeroCE() {
         <BannerCE />
 
         {/* Large Screen UI */}
-        <div className='md:hidden lg:flex hidden lg:py-14 lg:gap-4 lg:px-40'>
+        <div className='md:bg-slate-200 md:hidden lg:flex hidden lg:py-14 lg:gap-4 lg:px-40'>
             <div className='lg:basis-1/2'>
             <div className='lg:mx-auto'>
                 <h3 className='lg:py-8 lg:font-bold lg:text-4xl lg:uppercase'>Find The Best Internet Connection in Your City</h3>
