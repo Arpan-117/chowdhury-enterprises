@@ -142,14 +142,14 @@ function BannerCE() {
 
     //   </>
     <>
-        <div className='flex flex-row items-center lg:mx-auto lg:px-40 lg:pt-14 lg:w-full'>
-            <div className='basis-1/2'>
-                <h1 className='lg:p-4 lg:font-bold lg:text-center lg:text-4xl'>Welcome to Chowdhury Enterprises</h1>
-                <h2 className='lg:py-2 lg:font-semibold lg:text-center lg:text-2xl'>Lightning-Fast Internet & Reliable CCTV Security — Now in Kadma & Dobo.</h2>
-                <p className='lg:py-8 lg:mx-auto lg:text-lg lg:tracking-wide'>Enjoy hassle-free installation, friendly service, and technology that keeps your home and business protected.</p>
+        <div className='flex flex-col-reverse px-5  md:flex md:flex-row md:items-center md:mx-auto lg:px-40 lg:pt-14 lg:w-full'>
+            <div className='md:basis-1/2'>
+                <h1 className='lg:p-4 font-bold text-center text-2xl lg:text-4xl'>Welcome to Chowdhury Enterprises</h1>
+                <h2 className='lg:py-2 font-semibold text-center text-lg lg:text-2xl'>Lightning-Fast Internet & Reliable CCTV Security — Now in Kadma & Dobo.</h2>
+                <p className='py-4 text-center md:text-left lg:py-8 lg:mx-auto lg:text-lg tracking-wide'>Enjoy hassle-free installation, friendly service, and technology that keeps your home and business protected.</p>
             </div>
 
-              <div className='basis-1/2'>
+              <div className='md:basis-1/2'>
                   <div
                       className='relative w-full h-full overflow-hidden flex items-center justify-center p-6 rounded-xl'
                       onMouseEnter={() => setIsHovered(true)}
