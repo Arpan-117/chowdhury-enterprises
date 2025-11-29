@@ -37,15 +37,16 @@ function ContactCE() {
         <div className='lg:flex lg:flex-row'>
           <div className='lg:basis-1/2'>
             <img src={Support} alt='contact us photo' className='lg:p-4' />
+            <ChatCE />
           </div>
           <div className='lg:basis-1/2 lg:p-4 lg:my-auto'>
-            <ChatCE />
+            <EmailCE />
           </div>
         </div>
 
-        <div className='lg:py-8 lg:my-4 lg:w-1/2 lg:mx-auto lg:text-2xl lg:text-center'>
-          <EmailCE />
-        </div>
+        {/* <div className='lg:py-8 lg:my-4 lg:w-1/2 lg:mx-auto lg:text-2xl lg:text-center'>
+          
+        </div> */}
 
       </div>
 

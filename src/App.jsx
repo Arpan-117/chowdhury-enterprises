@@ -16,14 +16,14 @@ import CareerCE from "./pages/isp/CareerCE"
 import ContactCE from "./pages/isp/ContactCE"
 import ServiceCE from "./pages/isp/ServiceCE"
 import PageNotFoundCE from "./pages/isp/PageNotFoundCE"
+import ScrollToTopCE from "./components/isp/ScrollToTopCE"
 
 function App() {
 
   return (
     <BrowserRouter>
-
+      <ScrollToTopCE />
       <Routes>
-
       <Route element={<Layout />}>
         <Route index element={<LandingCE />} />
         <Route path="about" element={<AboutCE />} />

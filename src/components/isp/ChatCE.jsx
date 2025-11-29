@@ -13,11 +13,13 @@ function ChatCE() {
             <p>Office</p>
             <p>Mobile</p>
             <p>WhatsApp</p>
+            <p>Email</p>
           </div>
           <div className='lg:text-xl'>
             <p>0657-2300301</p>
             <p>+91-6206878303 / +91-8987745403</p>
             <p>+91-6206878303 / +91-8987745403</p>
+            <p>support@chowdhuryenterprises.in</p>
           </div>
         </div>
       </div>
@@ -32,11 +34,13 @@ function ChatCE() {
             <p>Office</p>
             <p>Mobile</p>
             <p>WhatsApp</p>
+            <p>Email</p>
           </div>
           <div className='md:text-xl md:text-right'>
             <p>0657-2300301</p>
             <p>+91-6206878303 / +91-8987745403</p>
             <p>+91-6206878303 / +91-8987745403</p>
+            <p>support@chowdhuryenterprises.in</p>
           </div>
         </div>
       </div>
@@ -70,6 +74,14 @@ function ChatCE() {
               </div>
               <div className='text-base basis-1/2'>
                 <p>+91-6206878303 / +91-8987745403</p>
+              </div>
+            </div>
+            <div className='flex'>
+              <div className='text-base basis-1/2'>
+                <p>Email</p>
+              </div>
+              <div className='text-base basis-1/2'>
+                <p>support@chowdhuryenterprises.in</p>
               </div>
             </div>
           </div>

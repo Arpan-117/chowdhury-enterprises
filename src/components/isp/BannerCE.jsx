@@ -16,7 +16,7 @@ function BannerCE() {
     const [isHovered, setIsHovered] = useState(false);
 
     const images = [Banner1, Banner2, Banner3];
-    console.log(images.length);
+    // console.log(images.length);
 
     const prevSlide = () => {
     setIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));

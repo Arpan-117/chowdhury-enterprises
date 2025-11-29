@@ -32,7 +32,7 @@ function BsnlCE() {
             <div className='md:block lg:hidden hidden md:bg-black md:pt-16 md:text-center'>
                 <div className='md:pb-10 md:pt-6'>
                     <Link to='/new-connection' >
-                        <buttton className='md:bg-white md:p-4 md:text-black md:text-xl md:tracking-wide md:rounded md:hover:bg-slate-200'>Book a connection</buttton>
+                        <button className='md:bg-white md:p-4 md:text-black md:text-xl md:tracking-wide md:rounded md:hover:bg-slate-200'>Book a connection</button>
                     </Link>
                 </div>
 
@@ -53,7 +53,7 @@ function BsnlCE() {
             <div className='block lg:hidden md:hidden bg-black pt-8 text-center'>
                 <div className='pb-10 pt-6'>
                     <Link to='/new-connection' >
-                        <buttton className='bg-white p-2 text-black text-lg tracking-wide rounded hover:bg-slate-200'>Book a connection</buttton>
+                        <button className='bg-white p-2 text-black text-lg tracking-wide rounded hover:bg-slate-200'>Book a connection</button>
                     </Link>
                 </div>
 
