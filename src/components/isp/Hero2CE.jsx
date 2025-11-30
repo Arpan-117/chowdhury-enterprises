@@ -19,13 +19,13 @@ function Hero2CE() {
                                 <IoShieldCheckmark className='lg:text-green-500 lg:text-4xl lg:inline-block' />
                                 safety and security at your fingertips</p>
                             <Link to='/cctv'>
-                                <button className='lg:bg-white lg:p-4 lg:text-2xl lg:tracking-wide lg:rounded'>Explore More</button>
+                                <button className='lg:bg-white lg:p-4 lg:text-2xl lg:tracking-wide lg:rounded lg:border-2 lg:border-black'>Explore More</button>
                             </Link>
                         </div>
                     </div>
                     <div className='lg:basis-1/2'>
                         <div className='lg:mx-auto lg:pt-10'>
-                            <img src={Cctv} alt='internet' className='lg:mx-auto lg:w-[34rem] lg:h-[28rem] lg:rounded-lg lg:drop-shadow-lg' />
+                            <img src={Cctv} alt='internet' className='lg:mx-auto lg:w-136 lg:h-112 lg:rounded-lg lg:drop-shadow-lg' />
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ function Hero2CE() {
                                 <IoShieldCheckmark className='md:text-green-500 md:text-2xl md:inline-block' />
                                 safety and security at your fingertips</p>
                             <Link to='/cctv'>
-                                <button className='md:bg-white md:p-4 md:text-lg md:tracking-wide md:rounded'>Explore More</button>
+                                <button className='md:bg-white md:p-4 md:text-lg md:tracking-wide md:rounded md:border-2 md:border-black'>Explore More</button>
                             </Link>
                         </div>
                     </div>

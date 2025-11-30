@@ -10,14 +10,14 @@ function ActionCE() {
                     <h1>Start your journey with us today!</h1>
                 </div>
 
-                <div className='flex flex-row lg:py-10'>
-                    <div className='basis-1/2 lg:text-center'>
+                <div className='lg:flex lg:flex-row lg:py-10'>
+                    <div className='lg:basis-1/2 lg:text-center'>
                     <Link to='/internet'>
                         <button className='lg:bg-black lg:p-4 lg:text-white lg:text-2xl lg:tracking-wide lg:rounded' type="submit">Browse our internet plans</button>
                     </Link>
                     </div>
 
-                    <div className='basis-1/2 lg:text-center'>
+                    <div className='lg:basis-1/2 lg:text-center'>
                     <Link to='/cctv'>
                         <button className='lg:bg-black lg:p-4 lg:text-white lg:text-2xl lg:tracking-wide lg:rounded' type="submit">Check out our CCTVs</button>
                     </Link>
@@ -33,19 +33,35 @@ function ActionCE() {
                     <h1>Start your journey with us today!</h1>
                 </div>
 
-                <div className='flex flex-row md:pb-4'>
-                    <div className='basis-1/2 lg:text-center'>
+                <div className='md:pb-4 md:text-center'>
+
+                    <div className='md:my-2'>
+                        <Link to='/internet'>
+                            <button className='md:bg-black md:p-2 md:w-full md:font-semibold md:text-white md:text-lg md:tracking-wide md:rounded' type="submit">Browse our internet plans</button>
+                        </Link>
+                    </div>
+                    
+                    <div className='md:my-2'>
+                        <Link to='/cctv'>
+                            <button className='md:bg-black md:p-2 md:w-full md:font-semibold md:text-white md:text-lg md:tracking-wide md:rounded' type="submit">Check out our CCTVs</button>
+                        </Link>
+                    </div>
+                    
+                </div>
+
+                {/* <div className='md:flex md:flex-row md:pb-4'>
+                    <div className='md:basis-1/2 md:text-center'>
                     <Link to='/internet'>
-                        <button className='lg:bg-black lg:p-4 lg:text-white lg:text-2xl lg:tracking-wide lg:rounded' type="submit">Browse our internet plans</button>
+                        <button className='md:bg-black md:p-4 md:text-white md:text-2xl md:tracking-wide md:rounded' type="submit">Browse our internet plans</button>
                     </Link>
                     </div>
 
-                    <div className='basis-1/2 lg:text-center'>
+                    <div className='md:basis-1/2 lg:text-center'>
                     <Link to='/cctv'>
-                        <button className='lg:bg-black lg:p-4 lg:text-white lg:text-2xl lg:tracking-wide lg:rounded' type="submit">Check out our CCTVs</button>
+                        <button className='md:bg-black md:p-4 md:text-white md:text-2xl md:tracking-wide md:rounded' type="submit">Check out our CCTVs</button>
                     </Link>
                     </div>
-                </div>
+                </div> */}
 
                 {/* <div className='md:pb-4 md:text-center'>
                     <Link to='/service'>
