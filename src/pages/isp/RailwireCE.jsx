@@ -30,12 +30,17 @@ function RailwireCE() {
 
     {/* Large Screen UI */}
       <div className='lg:block md:hidden hidden'>
-        <div className='lg:bg-slate-200 lg:pt-16 lg:text-center'>
+        <div className='lg:bg-slate-200 lg:pt-10 lg:text-center'>
           {/* <div className='lg:pb-10 lg:pt-6'>
             <Link to='/new-connection' >
               <buttton className='lg:bg-black lg:p-4 lg:text-white lg:text-2xl lg:tracking-wide lg:rounded lg:hover:bg-slate-800'>Book a connection</buttton>
             </Link>
           </div> */}
+          <div className='lg:px-20 lg:py-4 lg:text-left'>
+            <Link to='/internet' >
+              <button className='lg:bg-black lg:p-2 lg:text-white lg:text-xl lg:tracking-wide lg:rounded lg:hover:bg-slate-800'> ◀️ Back to Popular Plans </button>
+            </Link>
+          </div>
 
           <div className='lg:relative lg:h-[70vh] lg:mx-auto lg:w-[85%] lg:rounded-lg lg:overflow-hidden lg:bg-black'>
             <div className='lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-full lg:h-full'>
@@ -77,7 +82,7 @@ function RailwireCE() {
         <div className='md:bg-slate-200 md:pt-16 md:text-center'>
           <div className='md:pb-10 md:pt-6'>
             <Link to='/new-connection' >
-              <buttton className='md:bg-black md:p-4 md:text-white md:text-xl md:tracking-wide md:rounded md:hover:bg-slate-800'>Book a connection</buttton>
+              <button className='md:bg-black md:p-4 md:text-white md:text-xl md:tracking-wide md:rounded md:hover:bg-slate-800'>Book a connection</button>
             </Link>
           </div>
 

@@ -17,7 +17,7 @@ function ChatCE() {
           </div>
           <div className='lg:text-xl'>
             <p>0657-2300301</p>
-            <p>+91-6206878303 / +91-8987745403</p>
+            <p>+91-6206878303 / +91-8987745403 / 07903490796</p>
             <p>+91-6206878303 / +91-8987745403</p>
             <p>support@chowdhuryenterprises.in</p>
           </div>
@@ -38,7 +38,7 @@ function ChatCE() {
           </div>
           <div className='md:text-xl md:text-right'>
             <p>0657-2300301</p>
-            <p>+91-6206878303 / +91-8987745403</p>
+            <p>+91-6206878303 / +91-8987745403 / 07903490796</p>
             <p>+91-6206878303 / +91-8987745403</p>
             <p>support@chowdhuryenterprises.in</p>
           </div>
@@ -65,7 +65,7 @@ function ChatCE() {
                 <p>Mobile</p>
               </div>
               <div className='text-base basis-1/2'>
-                <p>+91-6206878303 / +91-8987745403</p>
+                <p>+91-6206878303 / +91-8987745403 / 07903490796</p>
               </div>
             </div>
             <div className='flex'>

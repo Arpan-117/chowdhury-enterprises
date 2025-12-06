@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router'
 import logo from '../../../images/logo.jpg'
 import { FaLocationDot } from "react-icons/fa6"
@@ -9,6 +9,8 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 
 function FooterCE() {
+  const [year, setYear] = useState(new Date().getFullYear());
+
   return (
     // <>
     //     <h1>FooterCE</h1>
@@ -61,6 +63,7 @@ function FooterCE() {
             <FaPhoneAlt />
             <p>+91-6206878303</p>
             <p>+91-8987745403</p>
+            <p>07903490796</p>
             <br/>
             <MdEmail />
             <p>support@chowdhuryenterprises.in</p>
@@ -93,7 +96,7 @@ function FooterCE() {
         <div className='lg:px-16 lg:py-8'>
           <div className='lg:flex lg:flex-row'>
             <div className='lg:basis-1/2 lg:px-2 lg:text-white'>
-              <p className='lg:text-white lg:text-sm'> ©️ 2025, Chowdhury Enterprises</p>
+              <p className='lg:text-white lg:text-sm'> ©️ {year}, Chowdhury Enterprises</p>
               <p className='lg:text-white lg:text-sm'>All Rights Reserved</p>
             </div>
 
@@ -156,6 +159,7 @@ function FooterCE() {
             <FaPhoneAlt />
             <p>+91-6206878303</p>
             <p>+91-8987745403</p>
+            <p>07903490796</p>
             <br/>
             <MdEmail />
             <p>support@chowdhuryenterprises.in</p>
@@ -188,7 +192,7 @@ function FooterCE() {
         <div className='md:px-16 md:py-8'>
           <div className='md:flex md:flex-row'>
             <div className='md:basis-1/2 md:px-2 md:text-white'>
-              <p className='md:text-white md:text-sm'> ©️ 2025, Chowdhury Enterprises</p>
+              <p className='md:text-white md:text-sm'> ©️ {year}, Chowdhury Enterprises</p>
               <p className='md:text-white md:text-sm'>All Rights Reserved</p>
             </div>
 
@@ -248,6 +252,7 @@ function FooterCE() {
             <FaPhoneAlt />
             <p>+91-6206878303</p>
             <p>+91-8987745403</p>
+            <p>07903490796</p>
             <br/>
             <MdEmail />
             <p>support@chowdhuryenterprises.in</p>
@@ -282,7 +287,7 @@ function FooterCE() {
         <div className='px-4 py-8'>
           <div className='flex flex-row'>
             <div className='basis-1/2 px-2 text-white'>
-              <p className='text-white text-sm'> ©️ 2025, Chowdhury Enterprises</p>
+              <p className='text-white text-sm'> ©️ {year}, Chowdhury Enterprises</p>
               <p className='text-white text-sm'>All Rights Reserved</p>
             </div>
 

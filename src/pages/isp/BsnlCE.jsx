@@ -15,6 +15,12 @@ function BsnlCE() {
                     </Link>
                 </div> */}
 
+              <div className='lg:px-20 lg:py-4 lg:text-left'>
+                  <Link to='/internet' >
+                      <button className='lg:bg-white lg:p-2 lg:text-black lg:text-xl lg:tracking-wide lg:rounded lg:hover:bg-slate-300'> ◀️ Back to Popular Plans </button>
+                  </Link>
+              </div>
+
                 <div className='lg:relative lg:h-[70vh] lg:mx-auto lg:w-[85%] lg:rounded-lg lg:overflow-hidden lg:bg-white'>
                     <div className='lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-full lg:h-full'>
                         <div className='lg:absolute lg:top-0 lg:left-0 lg:w-full lg:h-full lg:opacity-100 lg:z-10'>
