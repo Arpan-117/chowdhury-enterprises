@@ -10,15 +10,15 @@ import Banner3 from '../../assets/Home/Banner-3.JPG'
 
 function BannerCE() {
 
-    // const [currentSlide, setCurrentSlide] = useState(0);
-    const [index, setIndex] = useState(0);
-    // const [images] = useState([Banner1]);
-    const [isHovered, setIsHovered] = useState(false);
+  // const [currentSlide, setCurrentSlide] = useState(0);
+  const [index, setIndex] = useState(0);
+  // const [images] = useState([Banner1]);
+  const [isHovered, setIsHovered] = useState(false);
 
-    const images = [Banner1, Banner2, Banner3];
-    // console.log(images.length);
+  const images = [Banner1, Banner2, Banner3];
+  // console.log(images.length);
 
-    const prevSlide = () => {
+  const prevSlide = () => {
     setIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
@@ -37,17 +37,17 @@ function BannerCE() {
   }, [isHovered]);
 
 
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //         setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-    //     }, 3500);
+  // useEffect(() => {
+  //     const intervalId = setInterval(() => {
+  //         setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
+  //     }, 3500);
 
-    //     return () => clearInterval(intervalId);
-    // }, [images.length]);
+  //     return () => clearInterval(intervalId);
+  // }, [images.length]);
 
-    // const handleDotClick = (index) => {
-    //     setCurrentSlide(index);
-    // };
+  // const handleDotClick = (index) => {
+  //     setCurrentSlide(index);
+  // };
 
   return (
     //   <>
@@ -142,21 +142,24 @@ function BannerCE() {
 
     //   </>
     <>
-        <div className='flex flex-col-reverse px-5 lg:flex md:flex-row lg:items-center lg:mx-auto lg:px-40 md:px-20 lg:pt-14 lg:w-full'>
-            <div className='lg:basis-1/2 md:pt-14 lg:pt-0'>
-                <h1 className='lg:p-4 font-bold text-center text-2xl lg:text-4xl'>Welcome to Chowdhury Enterprises</h1>
-                <h2 className='lg:py-2 font-semibold text-center text-lg lg:text-2xl'>Lightning-Fast Internet & Reliable CCTV Security — Now in Kadma & Dobo.</h2>
-                <p className='py-4 text-center lg:text-left lg:py-8 lg:mx-auto lg:text-lg tracking-wide'>Enjoy hassle-free installation, friendly service, and technology that keeps your home and business protected.</p>
-            </div>
+      <div className='flex flex-col-reverse px-5 lg:flex md:flex-row lg:items-center lg:mx-auto lg:px-40 md:px-20 lg:pt-14 lg:w-full'>
+        <div className='lg:basis-1/2 md:pt-14 lg:pt-0'>
+          <h1 className='lg:p-4 font-bold text-center text-2xl lg:text-4xl'>Welcome to Chowdhury Enterprises</h1>
+          <h2 className='lg:py-2 font-semibold text-center text-lg lg:text-2xl'>Lightning-Fast Internet & Reliable CCTV Security in Jamshedpur.</h2>
+          {/* <p className='py-4 text-center lg:text-left lg:py-8 lg:mx-auto lg:text-lg tracking-wide'>Enjoy hassle-free installation, friendly service, and technology that keeps your home and business protected.</p> */}
+          <p className='pt-4 text-center lg:text-left lg:pt-8 lg:mx-auto lg:text-lg tracking-wide'>Welcome to Chowdhury Enterprises, your trusted provider of high-speed internet services, broadband connections, WiFi setup, and CCTV security system installations in Jamshedpur.</p>
+          <br />
+          <p className='pb-4 text-center lg:text-left lg:pb-8 lg:mx-auto lg:text-lg tracking-wide'>We serve homes, offices, shops, schools, factories, and commercial establishments across Bistupur, Sakchi, Telco, Kadma, Mango, Sonari, and nearby areas.</p>
+        </div>
 
-              <div className='lg:basis-1/2'>
-                  <div
-                      className='relative w-full h-full overflow-hidden flex items-center justify-center p-6 rounded-xl'
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => setIsHovered(false)}
-                  >
-                      {/* Slider Wrapper */}
-                      {/* <div className='flex'>
+        <div className='lg:basis-1/2'>
+          <div
+            className='relative w-full h-full overflow-hidden flex items-center justify-center p-6 rounded-xl'
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            {/* Slider Wrapper */}
+            {/* <div className='flex'>
                           {images.map((image, i) => (
                             <div key={i}>
                                 <img src={image} alt='Slider' />
@@ -165,27 +168,27 @@ function BannerCE() {
                           ))}
                       </div> */}
 
-                      <div className='flex'>
-                          <img src={images[index]} alt="Slider" className='' />
-                      </div>
+            <div className='flex'>
+              <img src={images[index]} alt="Slider" className='' />
+            </div>
 
-                      {/* Arrows */}
-                      <button
-                          onClick={prevSlide}
-                          className='absolute top-1/2 left-3 -translate-y-1/2 bg-blue-900/50 text-white text-2xl px-3 py-1 rounded hover:bg-blue-900/70'
-                      >
-                          ❮
-                      </button>
+            {/* Arrows */}
+            <button
+              onClick={prevSlide}
+              className='absolute top-1/2 left-3 -translate-y-1/2 bg-blue-900/50 text-white text-2xl px-3 py-1 rounded hover:bg-blue-900/70'
+            >
+              ❮
+            </button>
 
-                      <button
-                          onClick={nextSlide}
-                          className='absolute top-1/2 right-3 -translate-y-1/2 bg-blue-900/50 text-white text-2xl px-3 py-1 rounded hover:bg-blue-900/70'
-                      >
-                          ❯
-                      </button>
-                  </div>
-              </div>
+            <button
+              onClick={nextSlide}
+              className='absolute top-1/2 right-3 -translate-y-1/2 bg-blue-900/50 text-white text-2xl px-3 py-1 rounded hover:bg-blue-900/70'
+            >
+              ❯
+            </button>
+          </div>
         </div>
+      </div>
     </>
   )
 }

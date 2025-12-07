@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Prevent crawling of unnecessary system directories (if any)
+Disallow: /admin/
+Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml

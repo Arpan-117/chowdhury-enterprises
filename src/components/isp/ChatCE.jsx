@@ -5,7 +5,7 @@ function ChatCE() {
     <>
     
     {/* Large Screen UI */}
-    <div className='lg:block md:hidden hidden lg:bg-white'>
+    <div className='lg:block md:hidden hidden lg:bg-white lg:pb-10'>
       <div className='lg:mx-auto'>
         <h5 className='lg:font-semibold lg:text-3xl lg:text-center lg:py-4'>Reach out to us</h5>
         <div className='lg:flex lg:justify-around lg:py-4'>
