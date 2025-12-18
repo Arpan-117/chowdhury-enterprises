@@ -2,6 +2,7 @@ import { useState } from 'react'
 import ChatCE from '../../components/isp/ChatCE'
 import EmailCE from '../../components/isp/EmailCE'
 import Support from '../../images/support.jpg'
+import MapEmbedCE from '../../components/isp/MapEmbedCE'
 
 function ContactCE() {
 
@@ -38,6 +39,7 @@ function ContactCE() {
           <div className='lg:basis-1/2'>
             <img src={Support} alt='contact us photo' className='lg:p-4' />
             <ChatCE />
+            <MapEmbedCE />
           </div>
           <div className='lg:basis-1/2 lg:p-4 lg:my-auto'>
             <EmailCE />
@@ -79,6 +81,10 @@ function ContactCE() {
           <EmailCE />
         </div>
 
+        <div className='md:py-4 md:my-4 md:mx-auto md:text-2xl md:text-center'>
+          <MapEmbedCE />
+        </div>
+
       </div>
 
       {/* Mobile Screen UI */}
@@ -108,6 +114,10 @@ function ContactCE() {
 
         <div className='py-4 my-4 mx-auto text-2xl text-center'>
           <EmailCE />
+        </div>
+
+        <div className='py-4 my-4 mx-auto text-2xl text-center'>
+          <MapEmbedCE />
         </div>
 
       </div>

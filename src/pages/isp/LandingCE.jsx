@@ -6,6 +6,7 @@ import Hero3CE from '../../components/isp/Hero3CE'
 import ClientCE from '../../components/isp/ClientCE'
 import ActionCE from '../../components/isp/ActionCE'
 import ChatCE from '../../components/isp/ChatCE'
+import MapEmbedCE from '../../components/isp/MapEmbedCE'
 
 function LandingCE() {
   return (
@@ -17,6 +18,7 @@ function LandingCE() {
       <ClientCE />
       <ActionCE />
       <ChatCE />
+      <MapEmbedCE />
     </>
   )
 }
