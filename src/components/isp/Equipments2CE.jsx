@@ -1,5 +1,5 @@
 // import React from 'react'
-import Conn from '../../assets/Networking/conn.png'
+import Conn from '/Networking/conn.webp'
 
 function Equipments2CE() {
   return (

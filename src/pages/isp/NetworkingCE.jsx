@@ -2,7 +2,7 @@
 import EquipmentsCE from '../../components/isp/EquipmentsCE'
 import Equipments2CE from '../../components/isp/Equipments2CE'
 import ConnectivityCE from '../../components/isp/ConnectivityCE'
-import Vs from '../../assets/Networking/vs.jpg'
+import Vs from '/Networking/vs.webp'
 
 function NetworkingCE() {
   return (

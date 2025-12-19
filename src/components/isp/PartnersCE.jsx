@@ -1,9 +1,9 @@
 // import React from 'react'
-import Bsnl from '../../assets/Logos/bsnl1.png'
-import Railwire from '../../assets/Logos/rail_wire.png'
-import CPplus from '../../assets/Logos/cp_plus.png'
-import Dlink from '../../assets/Logos/D-Link.png'
-import Digisol from '../../assets/Logos/DIGISOL.png'
+import Bsnl from '/Logos/bsnl1.webp'
+import Railwire from '/Logos/rail_wire.webp'
+import CPplus from '/Logos/cp_plus.webp'
+import Dlink from '/Logos/D-Link.webp'
+import Digisol from '/Logos/DIGISOL.webp'
 
 function PartnersCE() {
   return (

@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router'
 import BestBsnlPlansCE from '../../components/isp/BestBsnlPlansCE'
 import RailwirePopularPlansCE from '../../components/isp/RailwirePopularPlansCE'
-import Banner2 from '../../assets/BSNL/SSPP.jpg'
-import Banner1 from '../../assets/RailWire/railwire-3.jpg'
+import Banner2 from '/BSNL/SSPP.webp'
+import Banner1 from '/RailWire/railwire-3.webp'
 
 
 function InternetCE() {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import AllBsnlPlansCE from '../../components/isp/AllBsnlPlansCE'
-import Banner from '../../assets/BSNL/SSPP.jpg'
+import Banner from '../../../public/BSNL/SSPP.webp'
 
 function BsnlCE() {
   return (

@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react'
 // import Banner2 from '../../images/Banner-1.png'
 // import Banner3 from '../../images/Banner-2.png'
 // import Banner4 from '../../images/Banner-3.png'
-import Banner1 from '../../assets/Home/Banner-1.JPG'
-import Banner2 from '../../assets/Home/Banner-2.JPG'
-import Banner3 from '../../assets/Home/Banner-3.JPG'
+import Banner1 from '/Home/Banner-1.webp'
+import Banner2 from '/Home/Banner-2.webp'
+import Banner3 from '/Home/Banner-3.webp'
 
 
 function BannerCE() {

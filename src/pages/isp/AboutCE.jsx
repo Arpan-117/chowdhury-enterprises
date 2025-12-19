@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router'
-import Integrated from '../../assets/About/integrated.png'
-import Customise from '../../assets/About/customise.png'
-import Technology from '../../assets/About/technology.png'
-import Team from '../../assets/About/team.png'
-import Satisfaction from '../../assets/About/satisfaction.png'
+import Integrated from '../../../public/About/integrated.webp'
+import Customise from '../../../public/About/customise.webp'
+import Technology from '../../../public/About/technology.webp'
+import Team from '../../../public/About/team.webp'
+import Satisfaction from '../../../public/About/satisfaction.webp'
 
 function AboutCE() {
   return (

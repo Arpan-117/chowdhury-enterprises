@@ -1,6 +1,6 @@
 // import React from 'react'
-import Wired from '../../assets/Networking/wired.webp'
-import Wireless from '../../assets/Networking/wireless.webp'
+import Wired from '/Networking/wired.webp'
+import Wireless from '/Networking/wireless.webp'
 
 function ConnectivityCE() {
   return (
