@@ -6,4 +6,4 @@ Disallow: /admin/
 Disallow: /temp/
 
 # Sitemap location
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://www.chowdhuryenterprises.in/sitemap.xml
