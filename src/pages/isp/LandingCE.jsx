@@ -17,8 +17,12 @@ function LandingCE() {
       <Hero3CE />
       <ClientCE />
       <ActionCE />
-      <ChatCE />
-      <MapEmbedCE />
+      <div className='px-8'>
+        <ChatCE />
+      </div>
+      <div className='px-2'>
+        <MapEmbedCE />
+      </div>
     </>
   )
 }

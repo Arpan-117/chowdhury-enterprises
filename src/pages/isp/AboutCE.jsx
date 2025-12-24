@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router'
-import Integrated from '../../../public/About/integrated.webp'
-import Customise from '../../../public/About/customise.webp'
-import Technology from '../../../public/About/technology.webp'
-import Team from '../../../public/About/team.webp'
-import Satisfaction from '../../../public/About/satisfaction.webp'
+import Integrated from '/About/integrated.webp'
+import Customise from '/About/customise.webp'
+import Technology from '/About/technology.webp'
+import Team from '/About/team.webp'
+import Satisfaction from '/About/satisfaction.webp'
 
 function AboutCE() {
   return (

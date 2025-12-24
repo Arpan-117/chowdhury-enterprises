@@ -3,7 +3,7 @@ import { useRef, useState } from 'react'
 function EmailCE() {
 
     const formRef = useRef(null)
-    // const scriptUrl = 'https://script.google.com/macros/s/AKfycby7faU-0tEUym3wmBkuCREDb2AcnFXAtQIS4OObkdP_-s_wGdM-LVimqKjk-H0xy9Gx/exec'
+    const scriptUrl = 'https://script.google.com/macros/s/AKfycby7faU-0tEUym3wmBkuCREDb2AcnFXAtQIS4OObkdP_-s_wGdM-LVimqKjk-H0xy9Gx/exec'
     const [loading, setLoading] = useState(false);
 
     const handleSubmit = (e) => {

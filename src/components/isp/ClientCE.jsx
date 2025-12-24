@@ -1,14 +1,14 @@
 // import React from 'react'
 import Baldwin from '/Clients/baldwin.webp'
-import Bharatgas from '../../../public/Clients/bharatgas.webp'
-import Concept from '../../../public/Clients/concept.webp'
-import Danfit from '../../../public/Clients/danfit.webp'
-import Idbi from '../../../public/Clients/idbi.webp'
-import Indiapost from '../../../public/Clients/post.webp'
-import Kennel from '../../../public/Clients/kennel.webp'
-import Lic from '../../../public/Clients/lic.webp'
-import Boi from '../../../public/Clients/boi.webp'
-import Lenskart from '../../../public/Clients/lenskart.webp'
+import Bharatgas from '/Clients/bharatgas.webp'
+import Concept from '/Clients/concept.webp'
+import Danfit from '/Clients/danfit.webp'
+import Idbi from '/Clients/idbi.webp'
+import Indiapost from '/Clients/post.webp'
+import Kennel from '/Clients/kennel.webp'
+import Lic from '/Clients/lic.webp'
+import Boi from '/Clients/boi.webp'
+import Lenskart from '/Clients/lenskart.webp'
 
 function ClientCE() {
   return (
